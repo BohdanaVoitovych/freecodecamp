@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img
+            id="header-img"
+            src="https://cdn.shopify.com/s/files/1/1421/2776/files/JeeperPeepers-01_500x.png?v=1516981342"
+            alt="sunglasses logo"
+          />
+        </div>
+
+        <nav id="nav-bar">
+          <ul>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li>
+              <a class="nav-link" href="#how-sunglasses-are-made"
+                >How Sunglasses are made</a
+              >
+            </li>
+            <li><a class="nav-link" href="#price">Price</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="container"></div>
+
+      <section id="hero">
+        <h2>
+          Join our Mailing List<br />KEEP IN TOUCH AND GET 10% OFF YOUR FIRST
+          ORDER.
+        </h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+
+          <input id="submit" type="submit" value="Get Started" class="btn" />
+        </form>
+      </section>
+
+      <div class="container">
+        <section id="features">
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-rainbow"> </i>
+            </div>
+
+            <div class="desc">
+              <h2>PRODUCTS</h2>
+              <p>
+                We have made every effort to display as accurately as possible
+                the colours and images of our products that appear at the store.
+                <br />
+                We cannot guarantee that your computer monitor's display of any
+                colour will be accurate.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-rocket"> </i>
+            </div>
+
+            <div class="desc">
+              <h2>SHIPPING INFORMATION</h2>
+              <p>
+                UK delivery is free on orders over £30.<br />Your items should
+                arrive 2 - 5 working days after receipt of our dispatch email.
+              </p>
+            </div>
+          </div>
+
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-3x fa-undo" aria-hidden="true"> </i>
+            </div>
+
+            <div class="desc">
+              <h2>RETURNS</h2>
+              <p>
+                At Jeepers Peepers we understand that things don't always work
+                out- so if you change your mind and need to make a return you’re
+                welcome to do so within 14 days of receipt.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="how-sunglasses-are-made">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/szwq_G8plvs"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          >
+          </iframe>
+        </section>
+
+        <section id="price">
+          <div class="product" id="tenor">
+            <div class="level">Mens</div>
+            <h2>$60</h2>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+
+            <button class="btn">Select</button>
+          </div>
+          <div class="product" id="Womens">
+            <div class="level">Womans</div>
+            <h2>$90</h2>
+            <ol>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum.</li>
+              <li>Lorem ipsum dolor.</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+
+          <div class="product" id="valve">
+            <div class="level">Classic</div>
+            <h2>$120</h2>
+            <ol>
+              <li>Round gold tortoiseshell</li>
+              <li>Black square</li>
+              <li>Black plastic frame with gold detail</li>
+              <li>Lorem ipsum.</li>
+            </ol>
+            <button class="btn">Select</button>
+          </div>
+        </section>
+
+        <footer>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span>Copyright 2001, Jeepers Peepers</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
