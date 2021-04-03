@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <header class="header">
+        
+        <h1 id="title" class="text-center">EA GAMES<br> We exist to Inspire the World to Play</h1><br>
+        
+        <p id="description" class="description text-center"><br>Help us to improve EA Games</p>
+        </header><br>
+        
+        <form id="survey-form">
+        
+        <div class="form-group">
+        <label id="name-label" for="name">Name</label>
+          <input
+          type="text"
+          name="name"
+          id="name"
+          class="form-control"
+          placeholder="Enter your name"
+          required/>
+        </div>
+        
+        <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+          <input
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="Enter your Email"
+          required/>
+        </div>
+        
+        
+        <div class="form-group">
+        
+        <label id="number-label" for="number">Age<span class="clue"></span></label>
+          <input
+          type="number"
+          name="age"
+          id="number"
+          min="15"
+          max="75"
+          class="form-control"
+          placeholder="Age"/>
+        </div>
+        
+        
+        <div class="form-group">
+        
+        <p>What is your current role?</p>
+          <select id="dropdown" name="role" class="form-control" required>
+          <option disabled selected value>Select</option>
+          <option value="student">Student</option>
+          <option value="job">Full Time Job</option>
+          <option value="preferNo">Unemployed</option>
+          <option value="other">Other</option>
+          </select>
+        </div>
+        
+        <div class="form-group">
+        
+        <p>Do you like EA-GAMES?</p>
+        
+        <label>
+          <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked/>Definitely</label>
+        
+        
+        <label>
+          <input
+          name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"/>Maybe</label>
+            
+        
+        <label>
+          <input
+          name="user-recommend"
+          value="not at all"
+          type="radio"
+          class="input-radio"/>Not at all</label>
+          </div>
+        
+        
+        <div class="form-group">
+        <p>What is your favorite section in EA Games?</p>
+        
+        <select id="most-like" name="mostLike" class="form-control" required>
+          <option disabled selected value>Select an option</option>
+          <option value="Action">Action</option>
+          <option value="Fantasy">Fantasy</option>
+          <option value="Role playing">Role playing</option>
+          <option value="Simulation">Simulation</option>
+          </select>
+          </div>
+        
+        <div class="form-group">
+        <p>What we need to improve?
+          <span class="clue">(Check all that apply)</span></p>
+        
+        <label>
+          <input
+          name="prefer"
+          value="improved career mode"
+          type="checkbox"
+          class="input-checkbox"/>An improved career mode</label>
+        
+        <label>
+          <input
+          name="prefer"
+          value="Challenges"
+          type="checkbox"
+          class="input-checkbox"/>Challenges</label>
+        
+        <label>
+          <input
+          name="prefer"
+          value="game library"
+          type="checkbox"
+          class="input-checkbox"/>Game Library</label>
+        
+        <label>
+          <input
+          name="prefer"
+          value="secret game modes"
+          type="checkbox"
+          class="input-checkbox"/>Secret game modes</label>
+        
+        <label>
+          <input
+          name="prefer"
+          value="Design Challenges "
+          type="checkbox"
+          class="input-checkbox"/>Design Challenges </label>
+        
+        <label>
+          <input
+          name="prefer"
+          value="forum"
+          type="checkbox"
+          class="input-checkbox"/>Forum</label>
+                
+        
+        <label>
+          <input
+          name="prefer"
+          value="New In-Game Store"
+          type="checkbox"
+          class="input-checkbox"/>New In-Game Store</label>
+        </div>
+        
+        
+        <div class="form-group">
+        <p>Ask a question if you have</p>
+        <textarea
+          id="comments"
+          class="input-textarea"
+          name="comment"
+          placeholder="Enter your comment here..."
+        ></textarea>
+        </div>
+        
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button">Submit
+          </button>
+          </div>
+          </form>
+          </div>
+</body>
+</html>
